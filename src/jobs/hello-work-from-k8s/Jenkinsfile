@@ -1,0 +1,13 @@
+pipeline {
+    agent {
+        label "master || built-in"
+    }
+
+    stages {
+        stage('Build') {
+            steps {
+                sh("echo Hello World from JNLP")
+            }
+        }
+    }
+}
