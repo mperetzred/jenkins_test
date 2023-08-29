@@ -1,7 +1,7 @@
 package org.cnv
 
 class ScmsUtil {
-    static void cnvScm(scmContext, repo_owner="mperetzred", repo_branch="main") {
+    static void cnvScm(scmContext, repo_owner="mperetzred", repo_branch="cnv-4.13") {
         scmContext.with {
             git {
                 remote {
